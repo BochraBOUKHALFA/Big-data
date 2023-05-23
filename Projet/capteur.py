@@ -45,7 +45,7 @@ def add_data(df: pd.DataFrame):
     while i < 1000:
         timestamp = datetime.datetime.now()
         compteur_id = random.randint(1, 1000)
-        voltage = random.uniform(220.0, 240.0)  # Random voltage between 220V and 240V
+        voltage = round(random.uniform(220.0, 240.0),2) # Random voltage between 220V and 240V
         # current = random.uniform(0.0, 10.0)
 
         # Introduce false data

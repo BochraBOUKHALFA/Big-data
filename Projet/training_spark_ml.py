@@ -85,7 +85,7 @@ def main():
         secret_key="minio123"
     )
 
-    bucket = "warehouse"
+    bucket = "ML_data"
 
     found = minio_client.bucket_exists(bucket)
     if not found:
@@ -98,8 +98,8 @@ def main():
     Récupérer le fichier CSV qui se trouve dans votre bucket Warehouse
     """
     obj: urllib3.response.HTTPResponse = minio_client.get_object(
-        '???', # Bucket
-        '', # Fichier CSV
+        'compteurbucket', # Bucket
+        'compteurs', # Fichier CSV
     )
 
     """
@@ -118,8 +118,7 @@ def main():
     Pour cela, lister les colonnes à convertir.
     Dans le cas contraire où vous n'avez pas besoin de convertir, il suffit de commenter à l'aide des #
     """
-    for col in ["order_purchase_timestamp", "order_approved_at", "order_delivered_carrier_date",
-                "order_estimated_delivery_date", "order_delivered_customer_date"]:
+    for col in ["Timestamp"]:
         df_spark = df_spark.withColumn(col + "_int", unix_timestamp(col).cast("int"))
 
     """
