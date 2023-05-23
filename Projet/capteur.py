@@ -42,19 +42,22 @@ def generate_dataFrame(col):
 def add_data(df: pd.DataFrame):
     i = 0
 
-    while i < 600:
+    while i < 1000:
         timestamp = datetime.datetime.now()
-        name = random.choice(["Fluffy", "Whiskers", "Mittens", "Snowball", "Yuki"])
+        compteur_id = random.randint(1, 1000)
+        voltage = random.uniform(220.0, 240.0)  # Random voltage between 220V and 240V
+        # current = random.uniform(0.0, 10.0)
 
         # Introduce false data
         if random.random() < 0.02:  # 20% chance of having null values
-            age = np.nan
-            breed = None
+            power_factor = np.nan
+            current = None
         else:
-            age = random.randint(-10, 10)  # Allow negative ages
-            breed = random.choice(["Siamese", "Persian", "Maine Coon", "Bengal"])
+            current = random.randint(-10.0, 10.0) #Random current between 0A and 10A (added (-10 ,10) range to insert a negative number)
+            power_factor = round(random.uniform(0.8, 1.0), 2)
 
-        df.loc[i] = [timestamp,name, age,breed]
+
+        df.loc[i] = [timestamp,voltage,compteur_id, current,power_factor]
         i += 1
 
     return df
@@ -68,8 +71,8 @@ def write_data_minio(df: pd.DataFrame):
         secret_key="minio123"
     )
 
-    bucket_name = "catbucket"
-    file_name = "cat.csv"
+    bucket_name = "compteurbucket"
+    file_name = "compteurs.csv"
 
     try:
         if not client.bucket_exists(bucket_name):
@@ -88,6 +91,6 @@ def write_data_minio(df: pd.DataFrame):
         print(f"Error occurred while writing DataFrame to Minio: {err}")
 
 if __name__ == "__main__":
-    columns = ['Timestamp', 'Name', 'Age', 'Breed']
+    columns = ['Timestamp', 'voltage', 'compteur_id', 'current', 'power_factor']
     df = generate_dataFrame(columns)
     write_data_minio(df)

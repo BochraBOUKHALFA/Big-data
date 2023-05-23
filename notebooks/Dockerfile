@@ -24,3 +24,4 @@ RUN curl -O https://repo1.maven.org/maven2/software/amazon/awssdk/s3/2.18.41/s3-
     && mv hadoop-aws-3.3.2.jar /usr/local/spark/jars
 
 RUN pip install kafka-python
+RUN pip install 'org.apache.spark:spark-sql-kafka-0-10_2.12:3.4.0'

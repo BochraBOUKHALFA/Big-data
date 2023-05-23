@@ -12,14 +12,14 @@ def main():
                         secure=False)
 
     # Check if the bucket exists, create it if not
-    bucket_name = 'catbucket'
+    bucket_name = 'kafka-compteurbucket'
     found = minioClient.bucket_exists(bucket_name)
     if not found:
         minioClient.make_bucket(bucket_name)
         print(f"Created bucket: {bucket_name}")
 
     # Initialize Kafka consumer
-    consumer = KafkaConsumer('sending_cats',
+    consumer = KafkaConsumer('send_compteur_data',
                             bootstrap_servers=['localhost:9092'],
                             value_deserializer=lambda m: json.loads(m.decode('utf-8')))
 
@@ -29,14 +29,15 @@ def main():
 
         # Convert data to dictionary
         data_dict = {
-            'Timestamp': data[0],
-            'Name': data[1],
-            'Age': data[2],
-            'Breed': data[3]
+            "compteur_id": data["compteur_id"],
+            "voltage": data["voltage"],
+            "current": data["current"],
+            "power_factor": data["power_factor"],
+            "timestamp": data["timestamp"]
         }
 
         # Define the object name
-        object_name = f"{data_dict['Timestamp']}.json"
+        object_name = f"{data_dict['timestamp']}.json"
 
         # Encode the data as JSON
         json_data = json.dumps(data_dict)

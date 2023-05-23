@@ -5,46 +5,145 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f93be29d-9932-415b-a790-7b9142be1691" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:25.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:26.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:27.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:28.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:29.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:30.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:31.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:32.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:33.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:34.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:35.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:36.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:37.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:38.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:39.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:40.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:41.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:42.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:43.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:44.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:45.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:46.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:47.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:48.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:49.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:50.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:51.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:52.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:53.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:54.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:55.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:56.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:57.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:58.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:02:59.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:03:00.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:03:01.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:03:02.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:03:03.json/xl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 14:03:04.json/xl.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Big-data.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55d0741edcffbdb625bc8b1094c0f34898c765d3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/compteurbucket/.metadata.bin/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/compteurbucket/.usage-cache.bin/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/kafka-compteurbucket/.metadata.bin/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/kafka-compteurbucket/.usage-cache.bin/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/.minio.sys/config/iam/sts/0FFJODWGKLSGIYQXXXHO/identity.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/.minio.sys/config/iam/sts/NK5S6C3FK1PPW4EIN3NY/identity.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/compteurbucket/compteurs.csv/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/compteurbucket/output-compteurdata.parquet/_SUCCESS/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/compteurbucket/output-compteurdata.parquet/part-00000-f3152c70-213a-47f6-a4f2-e7d581a04f45-c000.snappy.parquet/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225856.432907.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225857.447939.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225858.467722.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225859.494515.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225900.512819.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225901.534508.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225902.564795.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225903.587492.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225904.609669.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225905.632115.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225906.650658.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225907.668263.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225908.686264.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225909.701427.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225910.708553.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225911.731632.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225912.740591.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225913.751861.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225914.778862.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225915.793609.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225916.807803.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225917.813847.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225918.832930.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225919.851138.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225920.870353.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225921.878710.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225922.901198.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225923.917051.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225924.925906.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225925.946853.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225926.967182.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225927.983436.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225928.991890.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225930.018732.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225931.031935.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225932.050399.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225933.054944.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225934.064455.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225935.087757.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225936.109914.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225937.120430.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225938.135348.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225939.147095.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225940.155749.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225941.163820.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225942.175751.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225943.186038.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225944.197780.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225945.222606.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225946.230727.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225947.245416.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225948.255890.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225949.263207.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225950.269662.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225951.276046.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225952.285903.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225953.291676.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225954.316660.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/2023-05-22T225955.351657.json/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/processed_data/_spark_metadata/0/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minio/kafka-compteurbucket/processed_data/part-00000-0ec19da5-5866-4a88-9e34-7f5059674f04-c000.snappy.parquet/xl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Produceur_kafka_spark.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/nohup.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/spark_data_prep.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/spark_data_preparation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet/Produceur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projet/Produceur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet/capteur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projet/capteur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet/consumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projet/consumer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet/spark_data_preparation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/.minio.sys/buckets/.usage.json/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/.usage.json/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/.minio.sys/buckets/catbucket/.metadata.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/.minio.sys/buckets/catbucket/.usage-cache.bin/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/.minio.sys/buckets/donnes-capteurs/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/donnes-capteurs/.usage-cache.bin/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/.minio.sys/buckets/warehouse/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/warehouse/.usage-cache.bin/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/.minio.sys/buckets/your-bucket/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/your-bucket/.usage-cache.bin/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/.minio.sys/config/iam/sts/SK8DZKBDA14TPMJS8ZU2/identity.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140225.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140226.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140227.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140228.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140229.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140230.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140231.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140232.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140233.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140234.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140235.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140236.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140237.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140238.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140239.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140240.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140241.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140242.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140243.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140244.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140245.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140246.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140247.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140248.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140249.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140250.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140251.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140252.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140253.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140254.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140255.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140256.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140257.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140258.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140259.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140300.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140301.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140302.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140303.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/2023-05-19 140304.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/catbucket/cat.csv/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/spark-defaults.conf" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/spark-defaults.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,31 +161,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/prjs/Big-Data-projet&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/prjs/Big-data/notebooks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Python.consumer">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\prjs\Big-data\notebooks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\prjs\Big-data\notebooks" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Produceur">
     <configuration name="Produceur" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="WIP_TAI" />
+      <module name="Big-data" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\NOUREDDINE\AppData\Local\Programs\Python\Python310\python.exe" />
+      <option name="SDK_NAME" value="Python 3.10" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projet" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -100,15 +208,16 @@
       <method v="2" />
     </configuration>
     <configuration name="capteur (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="WIP_TAI" />
+      <module name="Big-data" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\NOUREDDINE\AppData\Local\Programs\Python\Python310\python.exe" />
+      <option name="SDK_NAME" value="Python 3.10" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projet" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -144,15 +253,16 @@
       <method v="2" />
     </configuration>
     <configuration name="consumer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="WIP_TAI" />
+      <module name="Big-data" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\NOUREDDINE\AppData\Local\Programs\Python\Python310\python.exe" />
+      <option name="SDK_NAME" value="Python 3.10" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Projet" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -189,8 +299,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.consumer" />
         <item itemvalue="Python.Produceur" />
+        <item itemvalue="Python.consumer" />
         <item itemvalue="Python.capteur (1)" />
         <item itemvalue="Python.kafka_topic" />
         <item itemvalue="Python.capteur" />
@@ -212,6 +322,12 @@
       <workItem from="1684490671404" duration="7307000" />
       <workItem from="1684525424429" duration="1400000" />
       <workItem from="1684528089624" duration="1830000" />
+      <workItem from="1684660018511" duration="117000" />
+      <workItem from="1684660138021" duration="6851000" />
+      <workItem from="1684678812211" duration="5929000" />
+      <workItem from="1684751556018" duration="4718000" />
+      <workItem from="1684778726808" duration="13232000" />
+      <workItem from="1684836196228" duration="4747000" />
     </task>
     <servers />
   </component>
@@ -220,9 +336,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Big_Data_projet$Produceur.coverage" NAME="Produceur Coverage Results" MODIFIED="1684497740558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projet" />
+    <SUITE FILE_PATH="coverage/Big_data$consumer.coverage" NAME="consumer Coverage Results" MODIFIED="1684789134480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projet" />
     <SUITE FILE_PATH="coverage/Big_Data_projet$consumer.coverage" NAME="consumer Coverage Results" MODIFIED="1684497743023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projet" />
+    <SUITE FILE_PATH="coverage/Big_data$capteur__1_.coverage" NAME="capteur (1) Coverage Results" MODIFIED="1684786720032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projet" />
     <SUITE FILE_PATH="coverage/Big_Data_projet$kafka_topic.coverage" NAME="kafka_topic Coverage Results" MODIFIED="1684184651910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projet" />
     <SUITE FILE_PATH="coverage/Big_Data_projet$capteur.coverage" NAME="capteur Coverage Results" MODIFIED="1684184390531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projet" />
+    <SUITE FILE_PATH="coverage/Big_data$Produceur.coverage" NAME="Produceur Coverage Results" MODIFIED="1684838810253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projet" />
     <SUITE FILE_PATH="coverage/Big_Data_projet$capteur__1_.coverage" NAME="capteur (1) Coverage Results" MODIFIED="1684492788719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projet" />
   </component>
 </project>

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "Produceur.py", line 53, in <module>
+    kafka_producer(topic)
+  File "Produceur.py", line 47, in kafka_producer
+    time.sleep(1)
+KeyboardInterrupt
