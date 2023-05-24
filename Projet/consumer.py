@@ -5,7 +5,6 @@ from minio.error import S3Error
 import io
 
 def main():
-    # Initialize MinIO client
     minioClient = Minio('localhost:9000',
                         access_key='minio',
                         secret_key='minio123',
@@ -33,17 +32,21 @@ def main():
             "voltage": data["voltage"],
             "current": data["current"],
             "power_factor": data["power_factor"],
-            "timestamp": data["timestamp"]
+            "timestamp": data["timestamp"],
+            'consumption_KW': data["consumption_KW"],
+            'price': data["price"],
+            'id_Machine': data["id_Machine"],
+            'id_consumer': data["id_consumer"],
+            'Nbr_Person': data["Nbr_Person"],
+            'Nbr_machine': data["Nbr_machine"]
         }
 
-        # Define the object name
         object_name = f"{data_dict['timestamp']}.json"
 
         # Encode the data as JSON
         json_data = json.dumps(data_dict)
 
         try:
-            # Calculate the length of the data
             data_length = io.BytesIO(json_data.encode('utf-8')).getbuffer().nbytes
 
             # Save the data to MinIO bucket

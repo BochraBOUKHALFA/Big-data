@@ -31,9 +31,6 @@ Squelette pour simuler un capteur qui est temporairement stocké sous la forme d
 """
 
 def generate_dataFrame(col):
-    """
-    Cette méthode permet de générer un DataFrame Pandas pour alimenter vos data
-    """
     df = pd.DataFrame(columns=col)
     add_data(df)
     return df
@@ -46,10 +43,16 @@ def add_data(df: pd.DataFrame):
         timestamp = datetime.datetime.now()
         compteur_id = random.randint(1, 1000)
         voltage = round(random.uniform(220.0, 240.0),2) # Random voltage between 220V and 240V
+        consumption_KW = round(random.uniform(1.0, 1000.0),2)
+        price = round(random.uniform(1.0, 1000.0),2)
+        id_Machine = random.randint(1, 1000)
+        id_consumer = random.randint(1, 1000)
+        Nbr_Person = random.randint(1,1000)
+        Nbr_machine= random.randint(1,500)
         # current = random.uniform(0.0, 10.0)
 
         # Introduce false data
-        if random.random() < 0.02:  # 20% chance of having null values
+        if random.random() < 0.2:  # 20% chance of having null values
             power_factor = np.nan
             current = None
         else:
@@ -57,7 +60,7 @@ def add_data(df: pd.DataFrame):
             power_factor = round(random.uniform(0.8, 1.0), 2)
 
 
-        df.loc[i] = [timestamp,voltage,compteur_id, current,power_factor]
+        df.loc[i] = [timestamp,voltage,compteur_id, current,power_factor ,consumption_KW , price , id_Machine ,id_consumer,Nbr_Person,Nbr_machine]
         i += 1
 
     return df
@@ -91,6 +94,7 @@ def write_data_minio(df: pd.DataFrame):
         print(f"Error occurred while writing DataFrame to Minio: {err}")
 
 if __name__ == "__main__":
-    columns = ['Timestamp', 'voltage', 'compteur_id', 'current', 'power_factor']
+    columns = ['Timestamp', 'voltage', 'compteur_id', 'current', 'power_factor', 'consumption_KW', 'price', 'id_Machine', 'id_consumer', 'Nbr_Person', 'Nbr_machine']
     df = generate_dataFrame(columns)
     write_data_minio(df)
+

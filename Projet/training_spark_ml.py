@@ -67,7 +67,9 @@ def main():
     Initialisation d'un environnement Spark
     """
     try:
-        spark = SparkSession.builder.appName("LinearRegressionExample").getOrCreate()
+        spark = (SparkSession.builder.appName("Linear_Regression")
+            .master("spark://spark-master:7077")
+            .getOrCreate())
         logging.info('Spark session successfully created')
     except Exception as e:
         traceback.print_exc(file=sys.stderr)  # To see traceback of the error.
@@ -85,11 +87,11 @@ def main():
         secret_key="minio123"
     )
 
-    bucket = "ML_data"
+    bucket = "compteurbucket"
 
     found = minio_client.bucket_exists(bucket)
     if not found:
-        print("Bucket "+ bucket +" n'existe pas; arrêt de l'entrainement")
+        print("Bucket " + bucket + " n'existe pas; arrêt de l'entrainement")
         spark.stop()
     else:
         print("Bucket " + bucket + " existant")
@@ -98,8 +100,8 @@ def main():
     Récupérer le fichier CSV qui se trouve dans votre bucket Warehouse
     """
     obj: urllib3.response.HTTPResponse = minio_client.get_object(
-        'compteurbucket', # Bucket
-        'compteurs', # Fichier CSV
+        'compteurbucket',  # Bucket
+        'compteurs',  # Fichier CSV
     )
 
     """
@@ -125,53 +127,33 @@ def main():
     Diviser le DataFrame en deux sous DataFrame, à savoir train_data et validation_data en
     utilisation la méthode set_train_and_validation_ds
     """
-    ?, ? = ???(df_spark, seed)
+    train_data, validation_data = set_train_and_validation_ds(df_spark, seed)
 
     """
     features_cols : La liste des colonnes du dataset dont vous allez utiliser pour entrainer le modèle
     target_col : Le nom de la colonne que vous allez prédire
     """
-    features_cols = ["order_purchase_timestamp_int", "order_approved_at_int",
-                     "order_delivered_carrier_date_int", "order_estimated_delivery_date_int"]
-    target_col = "order_delivered_customer_date_int"
+    features_cols = ['Timestamp', 'voltage', 'compteur_id', 'current', 'power_factor', 'consumption_KW', 'price', 'id_Machine', 'id_consumer', 'Nbr_Person', 'Nbr_machine']
+    target_col = 'consumption_KW'
 
-    '''
-    Assembler = Spécifique à SparkML, permet de mettre les colonnes d'entrainement sous la forme d'une seule colonne
-    Prends en inputCols les noms des colonnes à transformer
-    Prends en outputCol le nom "features"
-    '''
-    assembler = VectorAssembler(inputCols=???, outputCol=???)
+
+    assembler = VectorAssembler(inputCols=features_cols, outputCol="features")
 
     """
     Appliquer la transformation d'Assembler pour le DataFrame train_data
     """
-    data_with_features = assembler.transform(???)
+    data_with_features = assembler.transform(train_data)
 
-    """
-    Création d'un modèle de Régression Linéaire avec: 
-        - le nombre d'itération maximale pour trouver les paramètres optimaux
-        - Le nom de la colonne servant pour l'entrainement (features)
-        - Le nom de la colonne à prédire (target_col)
-    """
-    lr = create_model(iter=???, features_cols="???", labelCol=???)
 
-    """
-    Une fois que le modèle est créée, Lancement de l'entrainement.
-    Trouvez la fonction qui permet de lancer l'entrainement avec le data_with_feature en paramètre
-    """
-    model = lr.???(???)
+    lr = create_model(iter=100, features_cols="features", labelCol=target_col)
 
-    """
-    Affichage des coefficients trouvés durant la phase de l'entrainement
-    Affichage de l'interception de la courbe de la régression linéaire
-    """
+
+    model = lr.fit(data_with_features)
+
     print("Coefficients: " + str(model.coefficients))
     print("Intercept: " + str(model.intercept))
 
-    """
-    Maintenant il faut sauvegarder le modèle
-    """
-    save_model(???)
+    save_model(model)
 
 
 if __name__ == '__main__':

@@ -7,7 +7,9 @@
     <list default="true" id="f93be29d-9932-415b-a790-7b9142be1691" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet/Produceur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projet/Produceur.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projet/capteur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projet/capteur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projet/consumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projet/consumer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projet/training_spark_ml.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projet/training_spark_ml.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/.bloomcycle.bin/xl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/.usage-cache.bin/xl.meta" afterDir="false" />
@@ -17,8 +19,11 @@
       <change beforePath="$PROJECT_DIR$/minio/.minio.sys/buckets/kafka-compteurbucket/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/kafka-compteurbucket/.usage-cache.bin/xl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/minio/.minio.sys/buckets/warehouse/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/warehouse/.usage-cache.bin/xl.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/minio/.minio.sys/buckets/your-bucket/.usage-cache.bin/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/minio/.minio.sys/buckets/your-bucket/.usage-cache.bin/xl.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/.minio.sys/config/iam/sts/0FFJODWGKLSGIYQXXXHO/identity.json/xl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/minio/.minio.sys/config/iam/sts/NK5S6C3FK1PPW4EIN3NY/identity.json/xl.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/minio/compteurbucket/compteurs.csv/xl.meta" beforeDir="false" afterPath="$PROJECT_DIR$/minio/compteurbucket/compteurs.csv/xl.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/spark_data_prep.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Produceur_kafka_spark.py" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Produceur_kafka_spark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/spark_data_preparation.py" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/spark_data_preparation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +208,9 @@
       <workItem from="1684751556018" duration="4718000" />
       <workItem from="1684778726808" duration="13232000" />
       <workItem from="1684836196228" duration="6244000" />
-      <workItem from="1684869981597" duration="2883000" />
+      <workItem from="1684869981597" duration="16246000" />
+      <workItem from="1684923460150" duration="4684000" />
+      <workItem from="1684948799312" duration="10859000" />
     </task>
     <servers />
   </component>
@@ -214,7 +221,7 @@
     <SUITE FILE_PATH="coverage/Big_Data_projet$Produceur.coverage" NAME="Produceur Coverage Results" MODIFIED="1684497740558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projet" />
     <SUITE FILE_PATH="coverage/Big_data$consumer.coverage" NAME="consumer Coverage Results" MODIFIED="1684789134480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projet" />
     <SUITE FILE_PATH="coverage/Big_Data_projet$consumer.coverage" NAME="consumer Coverage Results" MODIFIED="1684497743023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projet" />
-    <SUITE FILE_PATH="coverage/Big_data$capteur__1_.coverage" NAME="capteur (1) Coverage Results" MODIFIED="1684871327854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projet" />
+    <SUITE FILE_PATH="coverage/Big_data$capteur__1_.coverage" NAME="capteur (1) Coverage Results" MODIFIED="1684925898728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projet" />
     <SUITE FILE_PATH="coverage/Big_Data_projet$kafka_topic.coverage" NAME="kafka_topic Coverage Results" MODIFIED="1684184651910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projet" />
     <SUITE FILE_PATH="coverage/Big_Data_projet$capteur.coverage" NAME="capteur Coverage Results" MODIFIED="1684184390531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projet" />
     <SUITE FILE_PATH="coverage/Big_data$Produceur.coverage" NAME="Produceur Coverage Results" MODIFIED="1684838810253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projet" />

@@ -8,15 +8,21 @@ import random
 
 def add_data():
     while True:
-        timestamp = datetime.datetime.now().isoformat()
+        timestamp = datetime.datetime.now().isoformat()  # Convert datetime to string
         compteur_id = random.randint(1, 1000)
-        voltage = random.uniform(220.0, 240.0)
+        voltage = round(random.uniform(220.0, 240.0), 2)
+        consumption_KW = round(random.uniform(1.0, 1000.0), 2)
+        price = round(random.uniform(1.0, 1000.0), 2)
+        id_Machine = random.randint(1, 1000)
+        id_consumer = random.randint(1, 1000)
+        Nbr_Person = random.randint(1, 1000)
+        Nbr_machine = random.randint(1, 500)
 
-        if random.random() < 0.02:
+        if random.random() < 0.2:
             power_factor = np.nan
             current = None
         else:
-            current = random.randint(-10, 10)
+            current = random.uniform(0.0, 10.0)
             power_factor = round(random.uniform(0.8, 1.0), 2)
 
         data = {
@@ -24,7 +30,13 @@ def add_data():
             "voltage": voltage,
             "current": current,
             "power_factor": power_factor,
-            "timestamp": timestamp
+            "timestamp": timestamp,
+            'consumption_KW': consumption_KW,
+            'price': price,
+            'id_Machine': id_Machine,
+            'id_consumer': id_consumer,
+            'Nbr_Person': Nbr_Person,
+            'Nbr_machine': Nbr_machine
         }
 
         return data
@@ -37,17 +49,11 @@ def kafka_producer(topic):
     while True:
         data = add_data()
 
-        # Send data to Kafka topic
         producer.send(topic, value=data)
-
-        # Flush producer to ensure data is sent
         producer.flush()
-
-        # Sleep for 1 second
         time.sleep(1)
 
 
 if __name__ == "__main__":
-    # Kafka configuration
     topic = "send_compteur_data"
     kafka_producer(topic)
